@@ -1,0 +1,1 @@
+default['databox']['db_root_password'] = 'k8IJ6YbFws9Sp'
