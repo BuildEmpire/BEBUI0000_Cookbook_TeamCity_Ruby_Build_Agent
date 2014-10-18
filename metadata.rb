@@ -12,6 +12,6 @@ recipe 'teamcity_ruby_build_agent', 'Local Build Agent Recipe'
   supports os
 end
 
-%w{apt python cookbook_railsbox phantomjs teamcity_build_agent nodejs npm}.each do |cb|
+%w{apt python cookbook_railsbox phantomjs teamcity_build_agent nodejs}.each do |cb|
   depends cb
 end
