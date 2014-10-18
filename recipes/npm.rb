@@ -1,7 +1,7 @@
-npm_package 'grunt-cli' do
+nodejs_npm 'grunt-cli' do
   action :install
 end
 
-npm_package 'bower' do
+nodejs_npm 'bower' do
   action :install
 end
